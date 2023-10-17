@@ -12,8 +12,7 @@ app.get("/:id", (req, res) => {
     .then((result) => {
       res.send(result);
     })
-    .catch((e) => {
-      console.error(e.message);
+    .catch(() => {
       res.sendStatus(404);
     });
 });
