@@ -1,5 +1,7 @@
 # hltb-api
 
+**⚠️ WORK IN PROGRESS ⚠️**
+
 This opens a very simple server, allowing you to get the details from HLTB (How Long To Beat) of a given game.  
 Credit to ckatzorke. https://github.com/ckatzorke/howlongtobeat
 
