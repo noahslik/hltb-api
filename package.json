@@ -1,0 +1,19 @@
+{
+  "name": "hltb-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "live": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "howlongtobeat": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
