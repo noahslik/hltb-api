@@ -14,4 +14,4 @@ This opens a very simple server, allowing you to get the details from HLTB (How 
 
 ## How to use
 
-Direct your browser to `localhost:3000/details/id` and replace "id" with the HLTB id of the game.
+Direct your browser to `localhost:3000/id` and replace "id" with the HLTB id of the game.
