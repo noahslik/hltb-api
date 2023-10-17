@@ -6,10 +6,15 @@ const port = 3000;
 
 const hltbService = new hltb.HowLongToBeatService();
 
-app.get('/details/:id', (req, res) => {
-    hltbService.detail(req.params.id).then((result) => {
-        res.send(result)
-    });
+app.get('/:id', (req, res) => {
+    hltbService.detail(req.params.id)
+        .then((result) => {
+            res.send(result);
+        })
+        .catch((e) => {
+            console.error(e.message);
+            res.sendStatus(404);
+        });
 })
 
 app.listen(port, () => {
